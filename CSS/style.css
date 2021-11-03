@@ -1,0 +1,493 @@
+body{
+    /*background-image: url("https://64.media.tumblr.com/08d6f49409d20e48f8da7e0cf6909001/tumblr_p1wmfcPYtH1uk4j8so1_1280.jpg");
+    background-repeat: no-repeat, repeat;*/
+   /* Resize the background image to cover the entire container */
+    /*background-position: center; */
+    /* Resize the background image to cover the entire container */
+  /*  background-size: cover; 
+    padding-top: 100%;*/
+
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://64.media.tumblr.com/08d6f49409d20e48f8da7e0cf6909001/tumblr_p1wmfcPYtH1uk4j8so1_1280.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    color: #ffffff;
+    padding: 1em;
+    height: 100vh;
+
+    }
+
+   
+
+  /*for logo rotation*/
+
+  .rotate{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+ 
+    }  
+ 
+.rotate:hover  
+{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+} 
+
+  .navbar{
+    box-shadow: 10px;
+    
+            }
+
+
+            /*Icons footer*/
+            body {
+                padding-top: 100%;
+               
+            }
+            
+            
+            
+            
+            .text {
+              color: white;
+              font-size: 20px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              white-space: nowrap;
+            }
+            
+            @charset "UTF-8";
+            
+            .svg-inline--fa {
+              vertical-align: 0.255cm;
+            }
+            
+            .rounded-social-buttons {
+              text-align: center;
+            }
+            
+            .rounded-social-buttons .social-button {
+              display: inline-block;
+              position: relative;
+              cursor: pointer;
+              width: 2.125rem;
+              height: 2.125rem;
+              border: 0.125rem solid transparent;
+              padding: 0;
+              text-decoration: none;
+              text-align: center;
+              color: #fefefe;
+              font-size: 1.5625rem;
+              font-weight: normal;
+              line-height: 2em;
+              border-radius: 1.6875rem;
+              transition: all 0.5s ease;
+              margin-right: 0.25rem;
+              margin-bottom: 0.25rem;
+            }
+            
+            .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+              -webkit-transform: rotate(360deg);
+                  -ms-transform: rotate(360deg);
+                      transform: rotate(360deg);
+            }
+            
+            .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+              font-size: 22px;
+            }
+
+
+            /*For facebook icon*/
+            .rounded-social-buttons .social-button.facebook {
+              background: #3b5998;
+            }
+            
+            .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+              color: #3b5998;
+              background: #fefefe;
+              border-color: #3b5998;
+
+            }
+            /* For Instagram icon */
+            .rounded-social-buttons .social-button.instagram {
+                background: rgb(252, 158, 17);
+              }
+              
+              .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+                            color: #125688;
+                            background: #fefefe;
+                            border-color:  rgb(252, 158, 17);
+              }
+
+              /*For Linkedin icon*/
+              .rounded-social-buttons .social-button.linkedin {
+                             background: #007bb5;
+                                    }
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+                            color: #007bb5;
+                            background: #fefefe;
+                            border-color: #007bb5;
+                    }
+
+               /* For google Icon*/
+                .rounded-social-buttons .social-button.google {
+                background:#2bbb1e;
+              }
+              
+              .rounded-social-buttons .social-button.google:hover, .rounded-social-buttons .social-button.google:focus {
+                color: #008f13;
+                background: #ffffff;
+                border-color: #125688;
+              }
+
+            .navbar-collapse{
+                font-family: 'IM Fell English SC', serif;
+            }
+
+
+h2 {
+position: absolute;
+    top: 4rem;
+    left: 0;
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+}
+h3 {
+position: absolute;
+    top: 7rem;
+    left: 0;
+    text-align: center;
+    font-family: 'Rampart One', cursive;
+    flex: auto;
+}
+
+
+/* anime */
+
+.welcome {
+  margin-bottom: 20px;
+  position: absolute;
+  animation: text 4s 1 ;
+  flex: auto;
+}
+
+
+@keyframes text {
+  0%{
+    
+      margin-bottom: -40px;
+  }
+
+  30%{
+      
+      margin-bottom: -40px;
+  }
+
+  55%{
+      letter-spacing: 5px;
+      margin-bottom: -40px;
+  }
+}
+
+
+
+
+
+
+/* Contact us styling */
+
+:root {
+  --white: #afafaf;
+  --red: #e31b23;
+  --bodyColor: #292a2b;
+  --borderFormEls: hsl(0, 0%, 10%);
+  --bgFormEls: hsl(0, 0%, 14%);
+  --bgFormElsFocus: hsl(0, 7%, 20%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+a {
+  color: inherit;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+button,
+label {
+  cursor: pointer;
+}
+
+select {
+  appearance: none;
+}
+
+/* Remove native arrow on IE */
+select::-ms-expand {
+  display: none;
+}
+
+/*Remove dotted outline from selected option on Firefox*/
+/*https://stackoverflow.com/questions/3773430/remove-outline-from-select-box-in-ff/18853002#18853002*/
+/*We use !important to override the color set for the select on line 99*/
+select:-moz-focusring {
+  color: transparent !important;
+  text-shadow: 0 0 0 var(--white);
+}
+
+textarea {
+  resize: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font: 18px/1.5 "Open Sans", sans-serif;
+  color: var(--white);
+  margin: 1.5rem 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+
+/* FORM ELEMENTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.my-form h1 {
+  margin-bottom: 1.5rem;
+}
+
+.my-form li,
+.my-form .grid > *:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.my-form select,
+.my-form input,
+.my-form textarea,
+.my-form button {
+  width: 100%;
+  line-height: 1.5;
+  padding: 15px 10px;
+  border: 1px solid var(--borderFormEls);
+  color: var(--white);
+  background: var(--bgFormEls);
+  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
+    transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+.my-form textarea {
+  height: 170px;
+}
+
+.my-form ::placeholder {
+  color: inherit;
+  /*Fix opacity issue on Firefox*/
+  opacity: 1;
+}
+
+.my-form select:focus,
+.my-form input:focus,
+.my-form textarea:focus,
+.my-form button:enabled:hover,
+.my-form button:focus,
+.my-form input[type="checkbox"]:focus + label {
+  background: var(--bgFormElsFocus);
+}
+
+.my-form select:focus,
+.my-form input:focus,
+.my-form textarea:focus {
+  transform: scale(1.02);
+}
+
+.my-form *:required,
+.my-form select {
+  background-repeat: no-repeat;
+  background-position: center right 12px;
+  background-size: 15px 15px;
+}
+
+.my-form *:required {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);  
+}
+
+.my-form select {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/down.svg);
+}
+
+.my-form *:disabled {
+  cursor: default;
+  filter: blur(2px);
+}
+
+
+/* FORM BTNS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.my-form .required-msg {
+  display: none;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg)
+    no-repeat center left / 15px 15px;
+  padding-left: 20px;
+}
+
+.my-form .btn-grid {
+  position: relative;
+  overflow: hidden;
+  transition: filter 0.2s;
+}
+
+.my-form button {
+  font-weight: bold;
+}
+
+.my-form button > * {
+  display: inline-block;
+  width: 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.my-form button .back {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-110%, -50%);
+}
+
+.my-form button:enabled:hover .back,
+.my-form button:focus .back {
+  transform: translate(-50%, -50%);
+}
+
+.my-form button:enabled:hover .front,
+.my-form button:focus .front {
+  transform: translateX(110%);
+}
+
+
+/* CUSTOM CHECKBOX
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.my-form input[type="checkbox"] {
+  position: absolute;
+  left: -9999px;
+}
+
+.my-form input[type="checkbox"] + label {
+  position: relative;
+  display: inline-block;
+  padding-left: 2rem;
+  transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+.my-form input[type="checkbox"] + label::before,
+.my-form input[type="checkbox"] + label::after {
+  content: '';
+  position: absolute;
+}
+
+.my-form input[type="checkbox"] + label::before {
+  left: 0;
+  top: 6px;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--white);
+}
+
+.my-form input[type="checkbox"]:checked + label::before {
+  background: var(--red);
+}
+
+.my-form input[type="checkbox"]:checked + label::after {
+  left: 7px;
+  top: 7px;
+  width: 6px;
+  height: 14px;
+  border-bottom: 2px solid var(--white);
+  border-right: 2px solid var(--white);
+  transform: rotate(45deg);
+}
+
+
+/* FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+  font-size: 1rem;
+  text-align: right;
+  backface-visibility: hidden;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer span {
+  color: var(--red);
+}
+
+
+/* MQ
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (min-width: 600px) {
+  .my-form .grid {
+    display: grid;
+    grid-gap: 1.5rem;
+  }
+
+  .my-form .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .my-form .grid-3 {
+    grid-template-columns: auto auto auto;
+    align-items: center;
+  }
+
+  .my-form .grid > *:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .my-form .required-msg {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 541px) {
+  .my-form input[type="checkbox"] + label::before {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .my-form input[type="checkbox"]:checked + label::after {
+    top: 3px;
+  }
+}
