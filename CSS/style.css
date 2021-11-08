@@ -71,9 +71,7 @@ body{
             
             @charset "UTF-8";
             
-            .svg-inline--fa {
-              vertical-align: 0.255cm;
-            }
+            
             
             .rounded-social-buttons {
               text-align: center;
@@ -83,8 +81,8 @@ body{
               display: inline-block;
               position: relative;
               cursor: pointer;
-              width: 2.125rem;
-              height: 2.125rem;
+              width: 3.125rem;
+              height: 3.125rem;
               border: 0.125rem solid transparent;
               padding: 0;
               text-decoration: none;
@@ -106,7 +104,7 @@ body{
             }
             
             .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
-              font-size: 22px;
+              font-size: 25px;
             }
 
 
@@ -159,14 +157,16 @@ body{
             }
 
 
-h2 {
+.welcome {
+  color: white;
 position: absolute;
     top: 4rem;
     left: 0;
     text-align: center;
     font-family: 'Rampart One', cursive;
 }
-h3 {
+.muzile{
+  color: white;
 position: absolute;
     top: 7rem;
     left: 0;
@@ -181,7 +181,7 @@ position: absolute;
 .welcome {
   margin-bottom: 20px;
   position: absolute;
-  animation: text 4s 1 ;
+  animation: text 4s 4;
   flex: auto;
 }
 
@@ -204,31 +204,78 @@ position: absolute;
 }
 
 
+/* contact page rough draft */
+
+h1{
+  padding: 33px;
+  color: white;
+  text-align: center;
+  font-family: 'Rampart One', cursive;
+}
+
+.contact-info {
+display: inline-block;
+width: 100%;
+text-align: center;
+margin-bottom: 10px;
+color: aliceblue;
+}
+.contact-info-icon {
+margin-bottom: 15px;
+}
+.contact-info-item {
+  border-radius: 26px;
+background: #dc3545;;
+padding: 30px 0px;
+}
+.contact-page-sec .contact-page-form h2 {
+color: #071c34;
+text-transform: capitalize;
+font-size: 22px;
+font-weight: 700;
+}
+.contact-page-form .col-md-6.col-sm-6.col-xs-12 {
+padding-left: 0;
+}  
+.contact-page-form.contact-form input {
+margin-bottom: 5px;
+}  
+.contact-page-form.contact-form textarea {
+height: 110px;
+}
+.contact-page-form.contact-form input[type="submit"] {
+background: #071c34;
+width: 150px;
+border-color: #071c34;
+}
+.contact-info-icon i {
+font-size: 48px;
+color: #fda40b;
+}
+.contact-info-text p{margin-bottom:0px;}
+.contact-info-text h3 {
+color: #000000;
+font-size: 22px;
+text-transform: capitalize;
+font-weight: 600;
+margin-bottom: 10px;
+}
 
 
-
-
-/* Contact us styling */
+/* Contact us styling one for using on page */
 
 :root {
-  --white: #afafaf;
   --red: #e31b23;
   --bodyColor: #292a2b;
   --borderFormEls: hsl(0, 0%, 10%);
   --bgFormEls: hsl(0, 0%, 14%);
   --bgFormElsFocus: hsl(0, 7%, 20%);
 }
-
-* {
+.formtext{
   padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  outline: none;
 }
 
-a {
-  color: inherit;
-}
+
 
 input,
 select,
@@ -275,7 +322,8 @@ body {
 }
 
 .container {
-  max-width: 800px;
+
+  max-width: fit-content;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -296,14 +344,17 @@ body {
 .my-form input,
 .my-form textarea,
 .my-form button {
+
   width: 100%;
   line-height: 1.5;
   padding: 15px 10px;
+  border-radius: 5px;
   border: 1px solid var(--borderFormEls);
   color: var(--white);
   background: var(--bgFormEls);
   transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
     transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+
 }
 
 .my-form textarea {
@@ -342,9 +393,7 @@ body {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/asterisk.svg);  
 }
 
-.my-form select {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/down.svg);
-}
+
 
 .my-form *:disabled {
   cursor: default;
@@ -490,4 +539,16 @@ footer span {
   .my-form input[type="checkbox"]:checked + label::after {
     top: 3px;
   }
+}
+
+
+
+
+.contact-page-sec .contact-page-form {
+padding: 39px;
+}
+
+.contact-page-map{
+
+  border: solid 10px green;
 }
