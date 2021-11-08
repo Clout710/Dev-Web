@@ -552,3 +552,8 @@ padding: 39px;
 
   border: solid 10px green;
 }
+
+#userInput{
+position: absolute;
+
+}

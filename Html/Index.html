@@ -23,7 +23,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
 
-        
+        <script type="text/javascript">
+          function changeText2(){
+          var userInput = document.getElementById("userInput").value;
+          document.getElementById("boldStuff2").innerHTML = userInput;
+          }
+          </script>
+
     <title>Welcome!!!</title>
   </head>
   <body id="color-overlay ">
@@ -58,6 +64,9 @@
         <span>Developer</span>
       </h2>
        <h3 class="muzile">Welcome to Web Dev Page.</h3>
+       <b id="boldStuff2"></b>
+       <input type="text" id="userInput" value="Enter Name">
+       <input type="button" onclick="changeText2()" value="Change Text">
 
 
         
